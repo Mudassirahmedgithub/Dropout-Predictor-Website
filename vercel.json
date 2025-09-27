@@ -42,8 +42,5 @@
       "src": "/(.*)",
       "dest": "/frontend/build/$1"
     }
-  ],
-  "env": {
-    "PYTHONPATH": "./api"
-  }
+  ]
 }
