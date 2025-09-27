@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "functions": {
-    "api/*.py": {
-      "runtime": "@vercel/python"
+  "builds": [
+    {
+      "src": "api/*.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
     }
-  },
+  ],
   "routes": [
     {
       "src": "/api/predict",
@@ -35,7 +43,6 @@
       "dest": "/frontend/build/$1"
     }
   ],
-  "buildCommand": "cd frontend && npm install && npm run build",
   "env": {
     "PYTHONPATH": "./api"
   }
