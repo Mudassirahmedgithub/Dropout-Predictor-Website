@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BarChart3, TrendingUp, Users, Calendar, Download, Filter } from 'lucide-react';
+import { BarChart3, TrendingUp, Users, Calendar, Download } from 'lucide-react';
 import { 
   BarChart, 
   Bar, 
@@ -7,7 +7,6 @@ import {
   YAxis, 
   CartesianGrid, 
   Tooltip, 
-  Legend, 
   ResponsiveContainer, 
   PieChart, 
   Pie, 
@@ -18,7 +17,6 @@ import {
   Area
 } from 'recharts';
 import LoadingSpinner from '../components/LoadingSpinner';
-import RiskBadge from '../components/RiskBadge';
 
 const Analytics = () => {
   const [analyticsData, setAnalyticsData] = useState(null);

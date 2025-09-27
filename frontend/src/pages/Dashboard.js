@@ -7,9 +7,7 @@ import {
   BookOpen, 
   Calendar,
   Phone,
-  MapPin,
   GraduationCap,
-  User,
   Clock,
   BarChart3,
   CheckCircle
