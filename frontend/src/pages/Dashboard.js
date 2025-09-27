@@ -10,10 +10,13 @@ import {
   MapPin,
   GraduationCap,
   User,
-  Clock
+  Clock,
+  BarChart3,
+  CheckCircle
 } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import LoadingSpinner from '../components/LoadingSpinner';
+import RiskBadge from '../components/RiskBadge';
 
 const Dashboard = () => {
   const navigate = useNavigate();

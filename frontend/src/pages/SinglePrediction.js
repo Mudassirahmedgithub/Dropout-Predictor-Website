@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
-import { User, Brain, AlertTriangle, CheckCircle, TrendingUp } from 'lucide-react';
+import { User, Brain, AlertTriangle, CheckCircle } from 'lucide-react';
 import toast from 'react-hot-toast';
 import RiskBadge from '../components/RiskBadge';
 import LoadingSpinner from '../components/LoadingSpinner';

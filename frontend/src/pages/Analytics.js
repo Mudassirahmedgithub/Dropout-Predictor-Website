@@ -13,7 +13,9 @@ import {
   Pie, 
   Cell,
   LineChart, 
-  Line
+  Line,
+  AreaChart,
+  Area
 } from 'recharts';
 import LoadingSpinner from '../components/LoadingSpinner';
 import RiskBadge from '../components/RiskBadge';
