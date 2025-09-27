@@ -1,20 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import { BarChart3, TrendingUp, Users, Calendar, Download, Filter } from 'lucide-react';
 import { 
-  LineChart, 
-  Line, 
+  BarChart, 
+  Bar, 
   XAxis, 
   YAxis, 
   CartesianGrid, 
   Tooltip, 
+  Legend, 
   ResponsiveContainer, 
-  BarChart, 
-  Bar, 
   PieChart, 
   Pie, 
   Cell,
-  AreaChart,
-  Area
+  LineChart, 
+  Line
 } from 'recharts';
 import LoadingSpinner from '../components/LoadingSpinner';
 import RiskBadge from '../components/RiskBadge';
